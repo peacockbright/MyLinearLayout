@@ -39,7 +39,7 @@
     UIButton *btn = [UIButton new];
     btn.leftMargin = 0;
     btn.rightMargin = 0;
-    btn.height = 60;
+    btn.heightVal = 60;
     [btn setTitle:@"点击按钮显示隐藏文本" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(handleLabelShow:) forControlEvents:UIControlEventTouchUpInside];
     [ll addSubview:btn];
@@ -48,7 +48,7 @@
     bottomView.backgroundColor = [UIColor greenColor];
     bottomView.leftMargin = 0;
     bottomView.rightMargin = 0;
-    bottomView.height = 800;
+    bottomView.heightVal = 800;
     [ll addSubview:bottomView];
     
     

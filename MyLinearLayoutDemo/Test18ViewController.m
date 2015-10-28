@@ -87,17 +87,17 @@
     [tbll addRow:30 colWidth:-1];
     [tbll viewAtRowIndex:2].backgroundColor = [UIColor colorWithWhite:0.3 alpha:1];
     colView = [UIView new];
-    colView.height = 100;
+    colView.heightVal = 100;
     colView.backgroundColor = [UIColor redColor];
     [tbll addCol:colView atRow:2];
     
     colView = [UIView new];
-    colView.height = 200;
+    colView.heightVal = 200;
     colView.backgroundColor = [UIColor greenColor];
     [tbll addCol:colView atRow:2];
     
     colView = [UIView new];
-    colView.height = 1000;
+    colView.heightVal = 1000;
     colView.backgroundColor = [UIColor blueColor];
     [tbll addCol:colView atRow:2];
     
@@ -105,12 +105,12 @@
     [tbll addRow:30 colWidth:-2];
     [tbll viewAtRowIndex:3].backgroundColor = [UIColor colorWithWhite:0.4 alpha:1];
     colView = [UIView new];
-    colView.height = 80;
+    colView.heightVal = 80;
     colView.backgroundColor = [UIColor redColor];
     [tbll addCol:colView atRow:3];
     
     colView = [UIView new];
-    colView.height = 200;
+    colView.heightVal = 200;
     colView.backgroundColor = [UIColor greenColor];
     [tbll addCol:colView atRow:3];
     
@@ -136,17 +136,17 @@
     [tbll viewAtRowIndex:5].backgroundColor = [UIColor colorWithWhite:0.6 alpha:1];
     
     colView = [UIView new];
-    colView.width = 80;
+    colView.widthVal = 80;
     colView.backgroundColor = [UIColor redColor];
     [tbll addCol:colView atRow:5];
     
     colView = [UIView new];
-    colView.width = 120;
+    colView.widthVal = 120;
     colView.backgroundColor = [UIColor greenColor];
     [tbll addCol:colView atRow:5];
     
     colView = [UIView new];
-    colView.width = 70;
+    colView.widthVal = 70;
     colView.backgroundColor = [UIColor blueColor];
     [tbll addCol:colView atRow:5];
     

@@ -41,9 +41,9 @@
         else if (rowHeight > 0)
         {
             if (orientation == LVORIENTATION_HORZ)
-                self.height = rowHeight;
+                self.heightVal = rowHeight;
             else
-                self.width = rowHeight;
+                self.widthVal = rowHeight;
         }
         else
         {
@@ -171,9 +171,9 @@
     else if (rowView.colWidth > 0)
     {
         if (rowView.orientation == LVORIENTATION_HORZ)
-            colView.width = rowView.colWidth;
+            colView.widthVal = rowView.colWidth;
         else
-            colView.height = rowView.colWidth;
+            colView.heightVal = rowView.colWidth;
     }
     
     if (rowView.orientation == LVORIENTATION_HORZ)

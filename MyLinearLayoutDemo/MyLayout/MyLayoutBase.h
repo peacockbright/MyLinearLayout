@@ -135,8 +135,8 @@ typedef enum : unsigned char {
  v.width = 10    <=>   v.widthDime.equalTo(@10)
  
  */
-@property(nonatomic,assign) CGFloat width;
-@property(nonatomic,assign) CGFloat height;
+@property(nonatomic,assign) CGFloat widthVal;
+@property(nonatomic,assign) CGFloat heightVal;
 
 @end
 

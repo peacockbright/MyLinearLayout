@@ -188,36 +188,36 @@ const char * const ASSOCIATEDOBJECT_KEY_FLEXEDHEIGHT = "associatedobject_key_fle
     NSAssert(0, @"oops");
 }
 
--(CGFloat)width
+-(CGFloat)widthVal
 {
     return self.widthDime.measure;
 }
 
--(void)setWidth:(CGFloat)width
+-(void)setWidthVal:(CGFloat)widthVal
 {
-    self.widthDime.equalTo(@(width));
+    self.widthDime.equalTo(@(widthVal));
 }
 
--(CGFloat)height
+-(CGFloat)heightVal
 {
     return self.heightDime.measure;
 }
 
--(void)setHeight:(CGFloat)height
+-(void)setHeightVal:(CGFloat)heightVal
 {
-    self.heightDime.equalTo(@(height));
+    self.heightDime.equalTo(@(heightVal));
 }
 
 /*
 -(CGSize)size
 {
-    return CGSizeMake(self.width, self.height);
+    return CGSizeMake(self.widthVal, self.heightVal);
 }
 
 -(void)setSize:(CGSize)size
 {
-    self.width = size.width;
-    self.height = size.height;
+    self.widthVal = size.width;
+    self.heightVal = size.height;
 }
 
 */

@@ -28,14 +28,14 @@
     v1.backgroundColor = [UIColor redColor];
     v1.topMargin = 4;
     v1.leftMargin = v1.rightMargin = 0;
-    v1.height = 40;
+    v1.heightVal = 40;
     [ll addSubview:v1];
     
     UIView *v2 = [UIView new];
     v2.backgroundColor = [UIColor greenColor];
     v2.topMargin = 6;
-    v2.width = 40;
-    v2.height = 60;
+    v2.widthVal = 40;
+    v2.heightVal = 60;
     [ll addSubview:v2];
     
     
@@ -44,8 +44,8 @@
     
     v3.topMargin = 3;
     v3.bottomMargin = 4;
-    v3.width = 75;
-    v3.height = 30;
+    v3.widthVal = 75;
+    v3.heightVal = 30;
     
     [ll addSubview:v3];
     
